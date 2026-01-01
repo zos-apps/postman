@@ -1,0 +1,110 @@
+{
+  "name": "@zos-apps/postman",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.postman",
+    "name": "Postman",
+    "icon": "🚀",
+    "category": "developer",
+    "description": "API development and testing platform",
+    "permissions": [
+      "network"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1100,
+        "height": 750
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "api",
+      "http",
+      "rest",
+      "developer",
+      "testing"
+    ],
+    "about": "API development and testing platform.",
+    "help": [
+      "Create a request",
+      "Set parameters",
+      "Send and view response"
+    ],
+    "docs": "https://zos-apps.github.io/postman",
+    "site": "https://github.com/zos-apps/postman",
+    "features": [
+      "API testing",
+      "Collections",
+      "Environments",
+      "Mock servers",
+      "Documentation"
+    ],
+    "shortcuts": [
+      "⌘⏎ Send",
+      "⌘S Save",
+      "⌘N New request"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/postman"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/postman/issues",
+    "changelog": "https://github.com/zos-apps/postman/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "API development and testing platform",
+  "homepage": "https://zos-apps.github.io/postman",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/postman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/postman/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "postman",
+    "api",
+    "http",
+    "rest",
+    "developer",
+    "testing"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
